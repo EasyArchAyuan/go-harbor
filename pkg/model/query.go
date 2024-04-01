@@ -18,5 +18,6 @@ package model
 type Query struct {
 	PageSize int64  `json:"page_size,omitempty"`
 	Page     int64  `json:"page,omitempty"`
+	Name     string `json:"name,omitempty"`
 	Q        string `json:"q,omitempty"`
 }

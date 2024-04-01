@@ -15,11 +15,11 @@ See the License for the specific language governing permissions and
 
 package example
 
-/*
+import "testing"
+
 func TestProject(t *testing.T) {
-	err := Project("xxx.xx.xx", "username", "password")
+	err := Project("192.168.0.78:8077", "admin", "Harbor12345")
 	if err != nil {
 		t.Errorf("%v", err)
 	}
 }
-*/

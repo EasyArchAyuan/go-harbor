@@ -32,6 +32,7 @@ func Project(host, username, password string) error {
 	}
 	query := model.Query{
 		PageSize: 2,
+		Name:     "xxx",
 	}
 	result1, err := clientSet.V2.List(&query)
 	if err != nil || len(*result1) == 0 {
